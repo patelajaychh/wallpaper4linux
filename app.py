@@ -23,12 +23,7 @@ def get_screen_info():
     return width, height
 
 def download_image(image_save_dir, home_dir):
-    #url = 'https://api.unsplash.com/photos/random/?client_id=nIkgNEHdu9WnQ0j8bf1FrJ2hQ_FCAwDxQ2v3Wl7wXlY&query=wallpapers&featured=1'
-    #  response = requests.get(url)
-    # print(response.content)
-    # meta = response.json()
-    # raw_url = meta['urls']['raw']
-    # img_name = meta['id']
+    
     key = None
     width, height = get_screen_info()
     query_categories = ['buildings', 'workspace', 'Animals', 'Education', 'Cartoons', \
