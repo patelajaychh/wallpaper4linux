@@ -2,3 +2,80 @@
 [2020-09-24 14:39:13] {/home/ajay/wallpaper4linux/app.py:143} INFO - Wallpaper changed......
 [2020-09-24 14:39:13] {/home/ajay/wallpaper4linux/app.py:149} INFO - Record date updated to today
 [2020-09-24 14:40:08] {/home/ajay/wallpaper4linux/app.py:112} INFO - Application run requested. Found already running
+[2020-09-24 14:59:19] {/home/ajay/wallpaper4linux/app.py:116} INFO - Application run requested. Found already running
+[2020-09-24 14:59:38] {/home/ajay/wallpaper4linux/app.py:116} INFO - Application run requested. Found already running
+[2020-09-24 16:38:02] {/home/ajay/wallpaper4linux/app.py:116} INFO - Application run requested. Found already running
+[2020-09-24 16:38:05] {/home/ajay/wallpaper4linux/app.py:116} INFO - Application run requested. Found already running
+[2020-09-24 16:39:46] {/home/ajay/wallpaper4linux/app.py:116} INFO - Application run requested. Found already running
+[2020-09-24 16:40:02] {/home/ajay/wallpaper4linux/app.py:116} INFO - Application run requested. Found already running
+[2020-09-24 16:42:06] {/home/ajay/wallpaper4linux/app.py:116} INFO - Application run requested. Found already running
+[2020-09-24 16:44:52] {/home/ajay/wallpaper4linux/app.py:117} INFO - Application run requested. Found already running
+[2020-09-24 16:44:52] {/home/ajay/wallpaper4linux/app.py:117} INFO - Application run requested. Found already running
+[2020-09-24 16:46:34] {/home/ajay/wallpaper4linux/app.py:122} INFO - Application started with PID 3557
+[2020-09-24 16:50:25] {/home/ajay/wallpaper4linux/app.py:122} INFO - Application started with PID 3733
+[2020-09-24 16:50:56] {/home/ajay/wallpaper4linux/app.py:117} INFO - Application run requested. Found already running
+[2020-09-24 16:51:02] {/home/ajay/wallpaper4linux/app.py:122} INFO - Application started with PID 3777
+[2020-09-24 16:51:12] {/home/ajay/wallpaper4linux/app.py:158} INFO - main(): exception caught, 
+[2020-09-24 16:51:12] {/home/ajay/wallpaper4linux/app.py:84} INFO - Program interrupted.. cleaning PID and exiting....
+[2020-09-24 16:52:53] {/home/ajay/wallpaper4linux/app.py:122} INFO - Application started with PID 3895
+[2020-09-24 16:52:53] {/home/ajay/wallpaper4linux/app.py:158} INFO - main(): exception caught, 'ConnectionError' object has no attribute 'message'
+[2020-09-24 16:52:53] {/home/ajay/wallpaper4linux/app.py:84} INFO - Program interrupted.. cleaning PID and exiting....
+[2020-09-24 16:53:41] {/home/ajay/wallpaper4linux/app.py:122} INFO - Application started with PID 3947
+[2020-09-24 16:53:41] {/home/ajay/wallpaper4linux/app.py:72} INFO - download_image: Exception caught, HTTPSConnectionPool(host='pixabay.com', port=443): Max retries exceeded with url: /api/?key=18392330-e567371943abc37c711ce8105&q=Cartoons&image_type=photo&min_width=1920&min_height=1080&editors_choice=true&per_page=50 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f205cf97128>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',))
+[2020-09-24 16:53:41] {/home/ajay/wallpaper4linux/app.py:72}
+[2020-09-24 17:05:26] {/home/ajay/wallpaper4linux/app.py:158} INFO - main(): exception caught, 
+[2020-09-24 17:05:26] {/home/ajay/wallpaper4linux/app.py:84} INFO - Program interrupted.. cleaning PID and exiting....
+[2020-09-24 17:05:35] {/home/ajay/wallpaper4linux/app.py:117} INFO - Application started with PID 5898
+[2020-09-24 17:49:05] {/home/ajay/wallpaper4linux/app.py:112} INFO - Application run requested. Found already running
+[2020-09-24 17:49:16] {/home/ajay/wallpaper4linux/app.py:112} INFO - Application run requested. Found already running
+[2020-09-24 22:37:14] {/home/ajay/wallpaper4linux/app.py:112} INFO - Application run requested. Found already running
+[2020-09-24 22:39:43] {/home/ajay/wallpaper4linux/app.py:117} INFO - Application started with PID 12594
+[2020-09-24 23:12:49] {/home/ajay/wallpaper4linux/app.py:112} INFO - Application run requested. Found already running
+[2020-09-24 23:12:49] {/home/ajay/wallpaper4linux/app.py:112} INFO - Application run requested. Found already running
+[2020-09-24 23:12:50] {/home/ajay/wallpaper4linux/app.py:112} INFO - Application run requested. Found already running
+[2020-09-24 23:12:50] {/home/ajay/wallpaper4linux/app.py:112} INFO - Application run requested. Found already running
+[2020-09-24 23:12:50] {/home/ajay/wallpaper4linux/app.py:112} INFO - Application run requested. Found already running
+[2020-09-24 23:13:59] {/home/ajay/wallpaper4linux/app.py:112} INFO - Application run requested. Found already running
+[2020-09-24 23:13:59] {/home/ajay/wallpaper4linux/app.py:112} INFO - Application run requested. Found already running
+[2020-09-24 23:14:00] {/home/ajay/wallpaper4linux/app.py:112} INFO - Application run requested. Found already running
+[2020-09-24 23:14:00] {/home/ajay/wallpaper4linux/app.py:112} INFO - Application run requested. Found already running
+[2020-09-24 23:14:00] {/home/ajay/wallpaper4linux/app.py:112} INFO - Application run reque
+[2020-09-25 00:22:42] {/home/ajay/wallpaper4linux/app.py:155} INFO - Wallpaper changed......
+[2020-09-25 00:22:42] {/home/ajay/wallpaper4linux/app.py:161} INFO - Record date updated to today
+[2020-09-25 00:22:53] {/home/ajay/wallpaper4linux/app.py:165} INFO - main(): exception caught, 
+[2020-09-25 00:22:53] {/home/ajay/wallpaper4linux/app.py:80} INFO - Program interrupted.. cleaning PID and exiting....
+[2020-09-25 00:23:48] {/home/ajay/wallpaper4linux/app.py:131} INFO - Application started with PID 17833
+[2020-09-25 00:23:53] {/home/ajay/wallpaper4linux/app.py:167} INFO - main(): exception caught, 
+[2020-09-25 00:23:53] {/home/ajay/wallpaper4linux/app.py:80} INFO - Program interrupted.. cleaning PID and exiting....
+[2020-09-25 00:24:04] {/home/ajay/wallpaper4linux/app.py:131} INFO - Application started with PID 17861
+[2020-09-25 00:24:10] {/home/ajay/wallpaper4linux/app.py:131} INFO - Application started with PID 17877
+[2020-09-25 00:24:13] {/home/ajay/wallpaper4linux/app.py:131} INFO - Application started with PID 17885
+[2020-09-25 00:25:20] {/home/ajay/wallpaper4linux/app.py:132} INFO - Application started with PID 17932
+[2020-09-25 00:25:28] {/home/ajay/wallpaper4linux/app.py:168} INFO - main(): exception caught, 
+[2020-09-25 00:25:28] {/home/ajay/wallpaper4linux/app.py:80} INFO - Program interrupted.. cleaning PID and exiting....
+[2020-09-25 00:25:53] {/home/ajay/wallpaper4linux/app.py:132} INFO - Application started with PID 17971
+[2020-09-25 00:25:57] {/home/ajay/wallpaper4linux/app.py:132} INFO - Application started with PID 17984
+[2020-09-25 00:26:13] {/home/ajay/wallpaper4linux/app.py:168} INFO - main(): exception caught, 
+[2020-09-25 00:26:13] {/home/ajay/wallpaper4linux/app.py:80} INFO - Program interrupted.. cleaning PID and exiting....
+[2020-09-25 00:26:16] {/home/ajay/wallpaper4linux/app.py:132} INFO - Application started with PID 18012
+[2020-09-25 00:26:22] {/home/ajay/wallpaper4linux/app.py:132} INFO - Application started with PID 18033
+[2020-09-25 00:26:36] {/home/ajay/wallpaper4linux/app.py:132} INFO - Application started with PID 18056
+[2020-09-25 00:26:44] {/home/ajay/wallpaper4linux/app.py:132} INFO - Application started with PID 18068
+[2020-09-25 00:27:33] {/home/ajay/wallpaper4linux/app.py:168} INFO - main(): exception caught, 
+[2020-09-25 00:27:33] {/home/ajay/wallpaper4linux/app.py:80} INFO - Program interrupted.. cleaning PID and exiting....
+[2020-09-25 00:29:18] {/home/ajay/wallpaper4linux/app.py:132} INFO - Application started with PID 18185
+[2020-09-25 00:29:59] {/home/ajay/wallpaper4linux/app.py:132} INFO - Application started with PID 18269
+[2020-09-25 00:30:04] {/home/ajay/wallpaper4linux/app.py:168} INFO - main(): exception caught, 
+[2020-09-25 00:30:04] {/home/ajay/wallpaper4linux/app.py:80} INFO - Program interrupted.. cleaning PID and exiting....
+[2020-09-25 00:31:46] {/home/ajay/wallpaper4linux/app.py:125} INFO - Application run requested. Found already running
+[2020-09-25 00:31:54] {/home/ajay/wallpaper4linux/app.py:125} INFO - Application run requested. Found already running
+[2020-09-25 00:31:59] {/home/ajay/wallpaper4linux/app.py:125} INFO - Application run requested. Found already running
+[2020-09-25 00:35:15] {/home/ajay/wallpaper4linux/app.py:132} INFO - Application started with PID 18547
+[2020-09-25 00:35:44] {/home/ajay/wallpaper4linux/app.py:168} INFO - main(): exception caught, 
+[2020-09-25 00:35:44] {/home/ajay/wallpaper4linux/app.py:80} INFO - Program interrupted.. cleaning PID and exiting....
+[2020-09-25 00:35:47] {/home/ajay/wallpaper4linux/app.py:132} INFO - Application started with PID 18588
+[2020-09-25 00:35:52] {/home/ajay/wallpaper4linux/app.py:158} INFO - Wallpaper changed......
+[2020-09-25 00:35:52] {/home/ajay/wallpaper4linux/app.py:164} INFO - Record date updated to today
+[2020-09-25 00:36:04] {/home/ajay/wallpaper4linux/app.py:168} INFO - main(): exception caught, 
+[2020-09-25 00:36:04] {/home/ajay/wallpaper4linux/app.py:80} INFO - Program interrupted.. cleaning PID and exiting....
+[2020-09-25 00:36:24] {/home/ajay/wallpaper4linux/app.py:132} INFO - Application started with PID 18633

@@ -10,6 +10,7 @@ import time
 import atexit
 import pathlib
 import logging
+import psutil
 
 logger = None
 
@@ -27,7 +28,7 @@ def download_image(image_save_dir, home_dir):
     key = None
     width, height = get_screen_info()
     query_categories = ['buildings', 'workspace', 'Animals', 'Education', 'Cartoons', \
-            'food+drink', 'music', 'Places+Monumnets', 'science+technology']
+            'food+drink', 'music', 'scifi', 'Places+Monumnets', 'science+technology']
     category_idx = random.choice(range(len(query_categories)))
     query = query_categories[category_idx]
     editors_choice =  "true"
@@ -78,6 +79,15 @@ def cleanup(pid_file):
         os.remove(pid_file)
         logger.info('Program interrupted.. cleaning PID and exiting....')
 
+def process_status(pid):
+
+    for proc in psutil.process_iter():
+        if proc.pid == pid:
+            return True
+        
+    return False
+
+
 def main(): 
 
     global logger
@@ -108,13 +118,18 @@ def main():
     pid_file = os.listdir(pid_file_path)
 
     if len(pid_file)>0:
-        print('Applicatin already in runing state....')
-        logger.info("Application run requested. Found already running")
-        exit()
-    else:
-        pid_file_path = pid_file_path+'/'+pid
-        pathlib.Path(pid_file_path).touch()
-        logger.info(f'Application started with PID {pid}')
+        status = process_status(int(pid_file[0]))
+        print(status)
+        if status:
+            print('Applicatin already in runing state....')
+            logger.info("Application run requested. Found already running")
+            exit()
+        else:
+            os.remove(pid_file_path+pid_file[0])        
+        
+    pid_file_path = pid_file_path+'/'+pid
+    pathlib.Path(pid_file_path).touch()
+    logger.info(f'Application started with PID {pid}')
 
     try:
         while(1):
@@ -160,4 +175,4 @@ def main():
 if __name__== "__main__":
     main()
     
-            
+
