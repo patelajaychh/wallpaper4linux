@@ -79,3 +79,8 @@
 [2020-09-25 00:36:04] {/home/ajay/wallpaper4linux/app.py:168} INFO - main(): exception caught, 
 [2020-09-25 00:36:04] {/home/ajay/wallpaper4linux/app.py:80} INFO - Program interrupted.. cleaning PID and exiting....
 [2020-09-25 00:36:24] {/home/ajay/wallpaper4linux/app.py:132} INFO - Application started with PID 18633
+[2020-09-25 01:00:49] {/home/ajay/wallpaper4linux/app.py:125} INFO - Application run requested. Found already running
+[2020-09-25 01:00:49] {/home/ajay/wallpaper4linux/app.py:125} INFO - Application run requested. Found already running
+[2020-09-25 01:03:14] {/home/ajay/wallpaper4linux/app.py:125} INFO - Application run requested. Found already running
+[2020-09-25 01:03:14] {/home/ajay/wallpaper4linux/app.py:125} INFO - Application run requested. Found already running
+[2020-09-25 01:03:14] {/home/ajay/wallpaper4linux/app.py:125} INFO - Application run requested. Found already running

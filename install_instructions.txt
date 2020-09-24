@@ -11,7 +11,7 @@ everyday.
 Steps - 
 1. Clone repository from https://github.com/patelajaychh/wallpaper4linux.git
 2. Copy the cloned project to the home directory of the user
-3. run ./install.py 
+3. run python3 ./install.py 
 - voila apllication is running and you will see your wallpaper changes everyday
 
 Note - 
