@@ -1,0 +1,20 @@
+--------------------------------------------------------------
+|-------------- WALPAPER4UNIX -------------------------------|
+|____________________________________________________________|
+
+Linux application for changing desktop background of your pc
+everyday.
+
+###########################################################
+# ----------- INSTALLATION -------------------------------#
+###########################################################
+Steps - 
+1. Clone repository from https://github.com/patelajaychh/wallpaper4linux.git
+2. run sudo ./install.sh
+- viola your application is installed and running.
+
+Note - 
+1. Downloaded wallpaper will be stored in "$Home/wallpaper4linux/download_wallpaper" dir,
+    avoid deleting that folder
+2. Do not run step 2 many time which will cause mutiple entries into the .bashrc file 
+    and will have to be manually removed.
