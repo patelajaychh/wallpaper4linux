@@ -23,7 +23,7 @@
 from setuptools import setup, find_packages
 
 PACKAGE_NAME="w4l"
-PACKAGE_VERSION="0.1-beta"
+PACKAGE_VERSION="1.0-Beta"
 AUTHER_NAME = "AJAY KUMAR PATEL"
 AUTHER_EMAIL = "PATELAJAYCHH@gmail.com"
 
