@@ -6,9 +6,9 @@ This application uses [PixaBay](https://pixabay.com/) [api](https://pixabay.com/
 Pre-requisite - 
   - To use this application user need to have a [PixaBay](https://pixabay.com/) account. 
   - Generate access token from your account and keep it noted somewhere. To know about, how to generate access token please watch this [video](https://www.youtube.com/watch?v=6X1l_J-8QOE&t=44s) by [Video Pizzazz](https://www.youtube.com/c/VideopizzazzLLC). 
-
+ - Required python version for this app is `python=3.8`
 ### Installation -
-- Required python3 version for this app is `python3.8`
+
 - Create application home directory -
 
     `$ mkdir $HOME/.wallapaper4linux`
@@ -21,7 +21,7 @@ Pre-requisite -
 
     `$ source $HOME/.wallapaper4linux/envPy/bin/activate`
 
-- Download wheel file from this [URL](link_to_whl_file)
+- Download wheel file from this [URL](https://github.com/patelajaychh/wallpaper4linux/tree/master/dist)
 
 - Execute below command to install application - 
 
