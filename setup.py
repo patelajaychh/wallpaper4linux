@@ -22,7 +22,7 @@
 
 from setuptools import setup, find_packages
 
-PACKAGE_NAME="w4l"
+PACKAGE_NAME="wallpaper4linux"
 PACKAGE_VERSION="1.0-Beta"
 AUTHER_NAME = "AJAY KUMAR PATEL"
 AUTHER_EMAIL = "PATELAJAYCHH@gmail.com"
@@ -46,7 +46,7 @@ setup(
     
     entry_points={
        "console_scripts":[
-           "w4l-app-start=w4l.app:wallpaper4inux_main"
+           "w4l-app-start=wallpaper4linux.app:wallpaper4inux_main"
        ] 
     },
 )
