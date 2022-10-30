@@ -60,7 +60,7 @@ Pre-requisite -
     Type=simple
     ExecStart=<user-home-path>/.wallpaper4linux/envPy/bin/w4l-app-start
     Restart=always
-    user=<your-user-name>
+    User=<your-user-name>
     Group=<your-user-name>
 
     [Install]
