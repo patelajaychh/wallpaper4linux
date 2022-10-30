@@ -12,7 +12,20 @@ import pathlib
 import logging
 import psutil
 
-logger = None
+HOME_DIR = os.path.expanduser("~")
+app_root_dir = f'{HOME_DIR}/wallpaper4linux/'
+logfile = f'{app_root_dir}/log/run.log'
+if not os.path.exists(logfile):
+    os.makedirs(logfile)
+
+logging.basicConfig(
+    filename=logfile, 
+    level=logging.INFO, 
+    format= '[%(asctime)s] {%(pathname)s:%(lineno)d} %(levelname)s - %(message)s',
+    datefmt='%Y-%m-%d %H:%M:%S'
+)
+
+logger = logging.getLogger(__name__)
 
 def get_screen_info():
     width = None
@@ -89,28 +102,12 @@ def process_status(pid):
 
 
 def main(): 
-
-    global logger
     
-    home_dir = os.path.expanduser("~")
-    app_root_dir = f'{home_dir}/wallpaper4linux/'
+    app_root_dir = f'{HOME_DIR}/wallpaper4linux/'
 
-    logfile = f'{app_root_dir}/log/run.log'
-    if not os.path.exists(logfile):
-        os.makedirs(logfile)
-    
-    logging.basicConfig(
-        filename=logfile, 
-        level=logging.INFO, 
-        format= '[%(asctime)s] {%(pathname)s:%(lineno)d} %(levelname)s - %(message)s',
-        datefmt='%Y-%m-%d %H:%M:%S'
-    )
-
-    logger = logging.getLogger('wallpaper4linux')
-    
     # Checking if application is already running
     pid = str(os.getpid())
-    pid_file_path = f'{home_dir}/wallpaper4linux/.data/pid/'
+    pid_file_path = f'{HOME_DIR}/wallpaper4linux/.data/pid/'
   
     if not os.path.exists(pid_file_path):
         os.makedirs(pid_file_path)
@@ -145,11 +142,11 @@ def main():
             if now>saved_state:
                 
                 
-                image_save_dir = f'{home_dir}/wallpaper4linux/downloaded_wallpapers/'
+                image_save_dir = f'{HOME_DIR}/wallpaper4linux/downloaded_wallpapers/'
                 if not os.path.exists(image_save_dir):
                     os.makedirs(image_save_dir)
                     
-                image_name = download_image( image_save_dir, home_dir )
+                image_name = download_image( image_save_dir, HOME_DIR )
                 #image_full_path = os.getcwd()+'/'+image_save_dir+str(image_name)+'.jpg'
                 image_full_path = image_save_dir+'/'+str(image_name)+'.jpg'
                 print(image_full_path)
