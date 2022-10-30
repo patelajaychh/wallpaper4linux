@@ -6,14 +6,14 @@ from datetime import datetime as dt
 import sys
 import logging
 from retry import retry
-from w4l.constant import DB_PATH
-from w4l.db_connection import (
+from wallpaper4linux.constant import DB_PATH
+from wallpaper4linux.db_connection import (
     get_details_by_date, 
     create_wallpaper_details_table, 
     update_wallpaper_details_table,
     wallpaper_details_table_exist
 )
-from w4l.utils import change_wallpaper, download_wallpaper
+from wallpaper4linux.utils import change_wallpaper, download_wallpaper
 
 
 logger = logging.getLogger(__name__)

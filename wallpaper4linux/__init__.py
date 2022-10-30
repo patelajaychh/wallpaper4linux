@@ -1,5 +1,5 @@
 import logging
-from w4l.constant import LOG_PATH
+from wallpaper4linux.constant import LOG_PATH
 
 log_level = "DEBUG"
 formatter = logging.Formatter(

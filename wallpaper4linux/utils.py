@@ -5,7 +5,7 @@ import random
 from tkinter import image_names
 import requests
 from screeninfo import get_monitors
-from w4l.constant import APP_HOME_DIR, ACCESS_TOKEN
+from wallpaper4linux.constant import APP_HOME_DIR, ACCESS_TOKEN
 
 logger = logging.getLogger(__name__)
 

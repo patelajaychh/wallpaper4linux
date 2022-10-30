@@ -1,5 +1,5 @@
 import os
-from w4l.constant import DB_PATH
+from wallpaper4linux.constant import DB_PATH
 import sqlite3 as sqlite
 import logging
 
