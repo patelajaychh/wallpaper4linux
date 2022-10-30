@@ -1,6 +1,2 @@
-test.py
-app2.py
-wallpaper4linux.service
-.data/pid/*
-downloaded_wallpapers/*
-log/*
+*info/
+__pycache__/
