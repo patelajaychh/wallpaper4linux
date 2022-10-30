@@ -5,7 +5,6 @@ import os
 from datetime import datetime as dt
 import sys
 import logging
-from retry import retry
 from wallpaper4linux.constant import DB_PATH
 from wallpaper4linux.db_connection import (
     get_details_by_date, 
@@ -18,10 +17,6 @@ from wallpaper4linux.utils import change_wallpaper, download_wallpaper
 
 logger = logging.getLogger(__name__)
 
-    
-    
-MAX_RETRY = 5
-# @retry(tries=MAX_RETRY, deplay=5)
 def start_app():
     logger.info("Wallpaper4Linux application STARTED")
     todays_date = str(dt.today().date())

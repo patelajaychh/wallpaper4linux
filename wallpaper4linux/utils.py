@@ -2,7 +2,6 @@ import os
 import sys
 import logging
 import random
-from tkinter import image_names
 import requests
 from screeninfo import get_monitors
 from wallpaper4linux.constant import APP_HOME_DIR, ACCESS_TOKEN
