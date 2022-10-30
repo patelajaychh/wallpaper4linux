@@ -34,7 +34,7 @@ Pre-requisite -
       `$ vim ~/.bashrc`
   - Add below line at the end of bashrc file -
 
-     `PX_ACCESS_TOKEN=<your-access-token-key>`
+     `export PX_ACCESS_TOKEN=<your-access-token-key>`
 
   - Save and close the file and execute below command - 
   
